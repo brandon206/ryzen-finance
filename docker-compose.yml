@@ -62,7 +62,7 @@ services:
     build:
       context: .
       dockerfile: php.dockerfile
-    container_name: php
+    container_name: artisan
     volumes:
       - ./src:/var/www/html
     working_dir: /var/www/html
